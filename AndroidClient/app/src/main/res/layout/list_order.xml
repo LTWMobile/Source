@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="50dp"
+        android:textColor="#f57a03"
+        android:textAlignment="center"
+        android:text="YOUR ORDER"
+        android:textStyle="bold" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/faborder"
+        android:src="@drawable/coffee_icon"
+        android:layout_gravity="right|bottom"
+        app:backgroundTint="#af500a"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        app:borderWidth="0dp"
+        android:onClick="Order"/>
+
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/fabmenu"
+        android:src="@drawable/menu"
+        android:layout_gravity="right|bottom"
+        app:backgroundTint="#af500a"
+        android:layout_marginEnd="90dp"
+        android:layout_marginBottom="16dp"
+        app:borderWidth="0dp"
+        android:onClick="Back"/>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="373dp"
+        android:id="@+id/listOrder"
+        android:layout_gravity="center" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        android:textColor="#f57a03"
+        android:id="@+id/total"
+        android:layout_gravity="left|bottom"
+        android:layout_marginBottom="16dp"
+        android:layout_marginStart="16dp"/>
+
+
+</FrameLayout>

@@ -1,0 +1,33 @@
++--------+----------+------------------------------+--------------------+-------------------------------------------------+------------+
+| Domain | Method   | URI                          | Name               | Action                                          | Middleware |
++--------+----------+------------------------------+--------------------+-------------------------------------------------+------------+
+|        | GET|HEAD | /                            |                    | Closure                                         |            |
+|        | POST     | /                            |                    | Closure                                         |            |
+|        | POST     | order                        | order.store        | App\Http\Controllers\OrderController@store      |            |
+|        | GET|HEAD | order                        | order.index        | App\Http\Controllers\OrderController@index      |            |
+|        | GET|HEAD | order/create                 | order.create       | App\Http\Controllers\OrderController@create     |            |
+|        | GET|HEAD | order/{order}                | order.show         | App\Http\Controllers\OrderController@show       |            |
+|        | PUT      | order/{order}                | order.update       | App\Http\Controllers\OrderController@update     |            |
+|        | PATCH    | order/{order}                |                    | App\Http\Controllers\OrderController@update     |            |
+|        | DELETE   | order/{order}                | order.destroy      | App\Http\Controllers\OrderController@destroy    |            |
+|        | GET|HEAD | order/{order}/edit           | order.edit         | App\Http\Controllers\OrderController@edit       |            |
+|        | GET|HEAD | shop                         | shop.index         | App\Http\Controllers\ShopController@index       |            |
+|        | POST     | shop                         | shop.store         | App\Http\Controllers\ShopController@store       |            |
+|        | GET|HEAD | shop/create                  | shop.create        | App\Http\Controllers\ShopController@create      |            |
+|        | GET|HEAD | shop/{shop}                  | shop.show          | App\Http\Controllers\ShopController@show        |            |
+|        | PUT      | shop/{shop}                  | shop.update        | App\Http\Controllers\ShopController@update      |            |
+|        | PATCH    | shop/{shop}                  |                    | App\Http\Controllers\ShopController@update      |            |
+|        | DELETE   | shop/{shop}                  | shop.destroy       | App\Http\Controllers\ShopController@destroy     |            |
+|        | GET|HEAD | shop/{shop}/edit             | shop.edit          | App\Http\Controllers\ShopController@edit        |            |
+|        | GET|HEAD | shop/{shop}/menu             | shop.menu.index    | App\Http\Controllers\ShopMenuController@index   |            |
+|        | POST     | shop/{shop}/menu             | shop.menu.store    | App\Http\Controllers\ShopMenuController@store   |            |
+|        | GET|HEAD | shop/{shop}/menu/create      | shop.menu.create   | App\Http\Controllers\ShopMenuController@create  |            |
+|        | GET|HEAD | shop/{shop}/menu/{menu}      | shop.menu.show     | App\Http\Controllers\ShopMenuController@show    |            |
+|        | PUT      | shop/{shop}/menu/{menu}      | shop.menu.update   | App\Http\Controllers\ShopMenuController@update  |            |
+|        | PATCH    | shop/{shop}/menu/{menu}      |                    | App\Http\Controllers\ShopMenuController@update  |            |
+|        | DELETE   | shop/{shop}/menu/{menu}      | shop.menu.destroy  | App\Http\Controllers\ShopMenuController@destroy |            |
+|        | GET|HEAD | shop/{shop}/menu/{menu}/edit | shop.menu.edit     | App\Http\Controllers\ShopMenuController@edit    |            |
+|        | GET|HEAD | shop/{shop}/order            | shop.order.index   | App\Http\Controllers\ShopOrderController@index  |            |
+|        | GET|HEAD | shop/{shop}/qr               | shop.qr.form       | Closure                                         |            |
+|        | POST     | shop/{shop}/qr               | shop.qr.generation | Closure                                         |            |
++--------+----------+------------------------------+--------------------+-------------------------------------------------+------------+

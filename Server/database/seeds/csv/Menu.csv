@@ -1,0 +1,41 @@
+shopid,name,quantity,price
+1,"coffee đen (nóng, đá)",ly,20000
+1,coffee trứng,ly,35000
+1,coffee Irish,ly,40000
+1,coffee K.n.f,ly,40000
+1,cam,ly,25000
+1,chanh tươi,ly,20000
+1,chanh dây,ly,35000
+1,chanh tuyết,ly,30000
+1,trà bạc hà,ly,20000
+1,trà chanh,ly,15000
+2,"coffee đen (nóng, đá)",ly,20000
+2,"coffee sữa (nóng, đá)",ly,25000
+2,coffee trứng,ly,35000
+2,coffee Irish,ly,30000
+2,coffee K.n.f,ly,25000
+2,sữa chua mít,ly,30000
+2,sữa chua dâu,ly,30000
+2,sữa chua táo,ly,27000
+2,trà chanh,ly,17000
+2,trà bạc hà,ly,25000
+3,"coffee đen (nóng, đá)",ly,25000
+3,"coffee sữa (nóng, đá)",ly,25000
+3,coffee Rum,ly,30000
+3,coffee Rhum,ly,30000
+3,coffee baileys,ly,30000
+3,sinh tố mãng cầu,ly,20000
+3,sinh tố dâu,ly,20000
+3,sinh tố dứa,ly,25000
+3,sinh tố bơ,ly,25000
+3,sinh tố xoài cam,ly,30000
+4,"coffee đen (nóng, đá)",ly,25000
+4,coffee sữa đá,ly,27000
+4,coffee trứng,ly,30000
+4,coffee Rhum,ly,30000
+4,coffee baileys,ly,35000
+4,sinh tố mãng cầu,ly,25000
+4,sinh tố dứa,ly,20000
+4,sinh tố dâu,ly,27000
+4,trà chanh,ly,20000
+4,trà bạc hà,ly,25000

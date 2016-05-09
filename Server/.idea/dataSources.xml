@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" hash="1624398349">
+    <data-source source="LOCAL" name="MySQL - takecoffee@ulibi.cwvkylm2lmvh.ap-southeast-1.rds.amazonaws.com" uuid="2c360d87-89a6-4e87-b873-7ff05b10a84b">
+      <driver-ref>mysql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://ulibi.cwvkylm2lmvh.ap-southeast-1.rds.amazonaws.com:3306/takecoffee</jdbc-url>
+      <driver-properties>
+        <property name="zeroDateTimeBehavior" value="convertToNull" />
+        <property name="tinyInt1isBit" value="false" />
+        <property name="characterEncoding" value="utf8" />
+        <property name="characterSetResults" value="utf8" />
+        <property name="yearIsDateType" value="false" />
+      </driver-properties>
+    </data-source>
+  </component>
+</project>

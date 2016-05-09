@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="MySQL - takecoffee@ulibi.cwvkylm2lmvh.ap-southeast-1.rds.amazonaws.com" uuid="2c360d87-89a6-4e87-b873-7ff05b10a84b">
+      <secret-storage>master_key</secret-storage>
+      <user-name>hungphongbk</user-name>
+      <schema-pattern>takecoffee.*</schema-pattern>
+      <default-schemas>takecoffee.*</default-schemas>
+    </data-source>
+  </component>
+</project>

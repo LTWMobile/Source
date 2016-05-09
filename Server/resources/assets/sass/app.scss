@@ -1,0 +1,59 @@
+// @import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+
+body {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.thumbnail{
+  position: relative;
+  img {
+    height: 200px;
+    width: 100%;
+  }
+  .caption.overlay {
+    position: absolute;
+    right: 4px;
+    left: 4px;
+    color: white;
+    background: -webkit-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.8));
+
+    a, a:hover, a:focus {
+      color: inherit;
+    }
+
+    hr {
+      margin-top: 6px;
+      margin-bottom: 12px;
+      border-color: rgba(255,255,255,0.4);
+    }
+
+    .pull-right-bottom {
+      position: absolute;
+      right: 12px;
+      bottom: 10px;
+    }
+  }
+}
+.shop-detail {
+  .page-header {
+    .shop-thumbnail {
+      img {
+        height: 200px;
+        width: 100%;
+      }
+    }
+    .fa {
+      margin-right: 1em;
+    }
+    .shop-title {
+      h2 { margin-top: 0; margin-bottom: 0; }
+    }
+  }
+  .shop-stat {
+    .label {
+      font-weight: 400;
+      padding-right: 1em;
+      padding-left: 1em;
+    }
+  }
+}

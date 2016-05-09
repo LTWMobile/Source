@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="275dp"
+    android:theme="@style/Theme.AppCompat.Dialog"
+    android:background="@drawable/bg">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/nameremove"
+        android:textColor="#e18505"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/fabX"
+        android:src="@drawable/cross"
+        app:backgroundTint="#fd352b"
+        app:borderWidth="0dp"
+        android:onClick="ListOrder"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="5dp"
+        android:layout_marginEnd="5dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#e18505"
+        android:text="Quantity: "
+        android:id="@+id/textView1"
+        android:layout_below="@+id/nameremove"
+        android:layout_alignStart="@+id/nameremove" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:ems="10"
+        android:textColor="#e18505"
+        android:id="@+id/re_quantity"
+        android:maxLength="2"
+        android:layout_below="@+id/textView1"
+        android:layout_alignStart="@+id/textView1"
+        android:layout_alignEnd="@+id/textView1"
+        android:focusableInTouchMode="true"/>
+
+</RelativeLayout><!-- From: file:/C:/Users/DevilFruit/Desktop/Working/TTCNPM/ttcnpm-151-27/Project/CoffeeApp/app/src/main/res/layout/remove_dialog.xml -->
